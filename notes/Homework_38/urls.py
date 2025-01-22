@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import hello_notes
+from notes.Homework_38.views import hello_notes
 
 urlpatterns =  [
     path('', hello_notes, name='hello_notes'),
