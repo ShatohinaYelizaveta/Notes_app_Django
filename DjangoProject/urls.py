@@ -25,5 +25,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('notes/', include('notes.urls')),  # Добавляем URL-адреса приложения notes
+    path('notes/', include('notes.urls')),
 ]

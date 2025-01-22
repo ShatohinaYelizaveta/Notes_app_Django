@@ -1,6 +1,6 @@
 from django.urls import path
 from .views import hello_notes
 
-urlpatterns = [
+urlpatterns =  [
     path('', hello_notes, name='hello_notes'),
 ]
